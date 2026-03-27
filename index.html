@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Duggee: Norrie's Squirrel Club</title>
+    <style>
+        body {
+            font-family: 'Arial Rounded MT Bold', 'Helvetica', sans-serif;
+            background-color: #FFD1DC; /* Norrie Pink */
+            color: #4A4A4A;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: #FFFFFF;
+            border-radius: 25px;
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 8px solid #FFCC00; /* Duggee Yellow */
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+        }
+        h1 { color: #E91E63; font-size: 2.5em; }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .badge-box {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #FFF9C4;
+            border-radius: 50%;
+            border: 4px dashed #E91E63;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>A-Woof! It's Norrie!</h1>
+    <p>Welcome to the Squirrel Club. Watch the video below to verify your badge!</p>
+
+    <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/z-UeGtcR8AY" 
+                title="Hey Duggee Norrie Video" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="badge-box">
+        <p><strong>Status:</strong><br>Squirrel Verified! ✅</p>
+    </div>
+    
+    <p><em>"Isn't it time for... a Duggee Hug?"</em></p>
+</div>
+
+</body>
+</html>
